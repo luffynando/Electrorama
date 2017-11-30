@@ -20,15 +20,15 @@
 <div class="container">
     <header>
         <nav id='cssmenu'>
-            <div class="logo"><a href="index.php">MENÚ</a></div>
+            <div class="logo"><a href="#">MENÚ</a></div>
             <div id="head-mobile"></div>
             <div class="button"></div>
             <ul>
-                <li class='active'><a href='index.php'>INICIO</a></li>
-                <li><a href='aplicacion.php'>APLICACIÓN</a></li>
-                <li><a href='ayuda.php'>AYUDA</a></li>
-                <li><a href='acerca.php'>ACERCA DE</a></li>
-            </ul>
+                <li class="active"><a href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li><a href="aplicacion.php"><i class="fa fa-microchip fa-lg"></i> Aplicacion</a></li>
+                <li><a href="ayuda.php"><i class="fa fa-question-circle fa-lg"></i> Ayuda</a></li>
+                <li><a href="acerca.php"><i class="fa fa-info-circle fa-lg"></i> Acerca de</a></li>
+        </ul>
         </nav>
     </header>
 </div>
