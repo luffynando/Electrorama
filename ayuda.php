@@ -10,7 +10,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/generador.js"></script>
 
-
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
