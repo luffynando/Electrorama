@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Memorama</title>
-
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/generador.js"></script>
@@ -14,8 +13,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style_aplicacion.css">
 
+    <!-- Seccion favicon -->
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <!-- end-->
     <script>
-
         vectorImage =new Array(37);
         var valor1=0;
         var valor2=0;
@@ -52,6 +53,14 @@
             for(i=1;i<37;i++){
                 document.getElementById(i+"a").src="imagenes/0.PNG";
             }
+        }
+        function modal(otroval){
+            var title= otroval.split(":",1);
+            document.getElementById('titlemod').innerHTML= title;
+            document.getElementById('testH1').innerHTML=otroval;
+            $(document).ready(function() {
+                $("#myModal").modal("show");
+            });
         }
         function evento(valor){
 
@@ -97,12 +106,7 @@
             var a16   = valores[16];
             var a17   = valores[17];
             var a18   = valores[18];
-
-
-
-
             console.log(a1);
-
             if(turno==0){
                 valor1=valor;
                 turno=1;
@@ -118,121 +122,121 @@
                     if(vectorImage[valor1].length==5){
                         var num =vectorImage[valor1].substr(0,1);
                         if(num==1){
-                            alert(a1);
+                            modal(a1);
                         }
                         if(num==2){
-                            alert(a2);
+                            modal(a2);
                         }
                         if(num==3){
-                            alert(a3);
+                            modal(a3);
                         }
                         if(num==4){
-                            alert(a4);
+                            modal(a4);
                         }
                         if(num==5){
-                            alert(a5);
+                            modal(a5);
                         }
                         if(num==6){
-                            alert(a6);
+                            modal(a6);
                         }
                         if(num==7){
-                            alert(a7);
+                            modal(a7);
                         }
                         if(num==8){
-                            alert(a8);
+                            modal(a8);
                         }
                         if(num==9){
-                            alert(a9);
+                            modal(a9);
                         }
                         if(num==10){
-                            alert(a10);
+                            modal(a10);
                         }
                         if(num==11){
-                            alert(a11);
+                            modal(a11);
                         }
                         if(num==12){
-                            alert(a12);
+                            modal(a12);
                         }
                         if(num==13){
-                            alert(a13);
+                            modal(a13);
                         }
                         if(num==13){
-                            alert(a13);
+                            modal(a13);
                         }
                         if(num==14){
-                            alert(a14);
+                            modal(a14);
                         }
                         if(num==15){
-                            alert(a15);
+                            modal(a15);
                         }
                         if(num==16){
-                            alert(a16);
+                            modal(a16);
                         }
                         if(num==17){
-                            alert(a17);
+                            modal(a17);
                         }
                         if(num==18){
-                            alert(a18);
+                            modal(a18);
                         }
                     }
                     if(vectorImage[valor1].length==6){
                         var num =vectorImage[valor1].substr(0,2);
                         if(num==1){
-                            alert(a1);
+                            modal(a1);
                         }
                         if(num==2){
-                            alert(a2);
+                            modal(a2);
                         }
                         if(num==3){
-                            alert(a3);
+                            modal(a3);
                         }
                         if(num==4){
-                            alert(a4);
+                            modal(a4);
                         }
                         if(num==5){
-                            alert(a5);
+                            modal(a5);
                         }
                         if(num==6){
-                            alert(a6);
+                            modal(a6);
                         }
                         if(num==7){
-                            alert(a7);
+                            modal(a7);
                         }
                         if(num==8){
-                            alert(a8);
+                            modal(a8);
                         }
                         if(num==9){
-                            alert(a9);
+                            modal(a9);
                         }
                         if(num==10){
-                            alert(a10);
+                            modal(a10);
                         }
                         if(num==11){
-                            alert(a11);
+                            modal(a11);
                         }
                         if(num==12){
-                            alert(a12);
+                            modal(a12);
                         }
                         if(num==13){
-                            alert(a13);
+                            modal(a13);
                         }
                         if(num==13){
-                            alert(a13);
+                            modal(a13);
                         }
                         if(num==14){
-                            alert(a14);
+                            modal(a14);
                         }
                         if(num==15){
-                            alert(a15);
+                            modal(a15);
                         }
                         if(num==16){
-                            alert(a16);
+                            modal(a16);
                         }
                         if(num==17){
-                            alert(a17);
+                            modal(a17);
                         }
                         if(num==18){
-                            alert(a18);
+                            modal(a18);
                         }
 
 
@@ -240,7 +244,7 @@
 
 
                 }else{
-                    alert("diferentes");
+                    modal("Diferentes");
                     document.getElementById(valor1+"a").src="imagenes/0.PNG";
                     document.getElementById(valor2+"a").src="imagenes/0.PNG";
                 }
@@ -270,7 +274,7 @@
             <div class="col-md-4 text-center"><br><br>
                 <form action="">
                     <h5 style="margin-bottom: 25px;">¡Oprima el botón cargar y disfrute del Electrograma!</h5>
-                    <table border="2">
+                    <table style="float:center" border="2">
                         <tr>
                             <td><img src="imagenes/0.PNG" id="1a" alt="0" onclick="evento('1');"/></td>
                             <td><img src="imagenes/0.PNG" id="2a" alt="0" onclick="evento('2');"/></td>
@@ -344,6 +348,24 @@
                 </form>
             </div>
 
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="titlemod"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="testH1"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style_inicio.css">
+    
+    <!-- Seccion favicon -->
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <!-- end-->
 </head>
 <body>
 <div class="container">

@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inicio</title>
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script> 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/generador.js"></script>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style_inicio.css">
+
+    <!-- Seccion favicon -->
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <!-- end-->
 </head>
 <body>
 <div class="container">
