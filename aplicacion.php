@@ -46,6 +46,7 @@
                 document.getElementById(i+"a").src="imagenes/"+vectorImage[i];
                 console.log(vectorImage[i]);
             }
+            setTimeout(limpiar,5000);
         }
         function limpiar(){
             for(i=1;i<37;i++){
@@ -268,7 +269,7 @@
         <div class="col-md-4"></div>
             <div class="col-md-4 text-center"><br><br>
                 <form action="">
-                    <h5 style="margin-bottom: 25px;">¡Oprima el botón cargar, después oprima el botón limpiar y disfrute del Electrograma!</h5>
+                    <h5 style="margin-bottom: 25px;">¡Oprima el botón cargar y disfrute del Electrograma!</h5>
                     <table border="2">
                         <tr>
                             <td><img src="imagenes/0.PNG" id="1a" alt="0" onclick="evento('1');"/></td>
@@ -333,7 +334,7 @@
                     <div>
                         <br>
                         <input class="btn btn-primary" type="button" value="Cargar" onclick="CargaAleatoria()">
-                        <input class="btn btn-primary" type="button" value="Limpiar" onclick="limpiar()">
+                        
                     </div>
                     <div>
 
