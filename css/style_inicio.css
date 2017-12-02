@@ -281,7 +281,6 @@ nav {
         display: block;
         height: 4px;
         width: 20px;
-        border-top: 2px solid #dddddd;
         border-bottom: 2px solid #dddddd;
         content: ''
     }

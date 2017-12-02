@@ -23,7 +23,7 @@
         <nav id='cssmenu'>
             <div class="logo"><a href="#">MENÚ</a></div>
             <div id="head-mobile"></div>
-            <div class="button"></div>
+            <div class="button"> </div>
             <ul>
                 <li class="active"><a href="index.php"><i class="fa fa-home fa-lg"></i> Home</a></li>
                 <li><a href="aplicacion.php"><i class="fa fa-microchip fa-lg"></i> Aplicacion</a></li>
@@ -35,7 +35,6 @@
 </div>
 <br><br><br><br>
     <div class="container">
-
         <div class="row">
             <div class="col-lg-12">
                 <div class="text-center">
