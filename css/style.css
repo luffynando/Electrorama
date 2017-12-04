@@ -188,8 +188,14 @@ nav {
 	width: 100%;
 	text-align: center;
     font: normal 18px sans-serif;
-    padding-top: 60px;
+    padding-top: 20px;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 
 .footer-basic-centered .footer-company-motto{
 	color:  #8d9093;
@@ -532,4 +538,30 @@ input {
 }
 #img-upload {
     width: 60%;
+}
+html,body{
+    height: 100%
+}
+
+#header{
+    background-color: #A50102;
+    width: 100%;
+}
+
+#holder {
+    min-height: 100%;
+    position:relative;
+}
+
+#body {
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: #A50102;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    padding: 10px;
 }

@@ -252,28 +252,32 @@
     </script>
 </head>
 <body>
-<div class="container">
-    <header>
-        <nav id='cssmenu'>
-            <div class="logo"><a href="#">MENÚ</a></div>
-            <div id="head-mobile"></div>
-            <div class="button"></div>
-            <ul>
-                <li><a href="index.php"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                <li class="active"><a href="aplicacion.php"><i class="fa fa-microchip fa-lg"></i> Aplicacion</a></li>
-                <li><a href="ayuda.php"><i class="fa fa-question-circle fa-lg"></i> Ayuda</a></li>
-                <li><a href="acerca.php"><i class="fa fa-info-circle fa-lg"></i> Acerca de</a></li>
-            </ul>
-        </nav>
-    </header>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-4"></div>
-            <div class="col-md-4 text-center"><br><br>
-                <form action="">
-                    <h5 style="margin-bottom: 25px;">¡Oprima el botón cargar y disfrute del Electrograma!</h5>
-                    <table style="float:center" border="2">
+<div id="holder">
+    <div id="header">
+        <div class="container">
+            <header>
+                <nav id='cssmenu'>
+                <div class="logo"><a href="#">MENÚ</a></div>
+                <div id="head-mobile"></div>
+                <div class="button"></div>
+                <ul>
+                    <li><a href="index.php"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="active"><a href="aplicacion.php"><i class="fa fa-microchip fa-lg"></i> Aplicacion</a></li>
+                    <li><a href="ayuda.php"><i class="fa fa-question-circle fa-lg"></i> Ayuda</a></li>
+                    <li><a href="acerca.php"><i class="fa fa-info-circle fa-lg"></i> Acerca de</a></li>
+                </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div id="body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                    <div class="col-md-4 text-center"><br><br>
+                        <form action="">
+                        <h5 style="margin-bottom: 25px;">¡Oprima el botón cargar y disfrute del Electrograma!</h5>
+                        <table style="float:center" border="2">
                         <tr>
                             <td><img src="imagenes/0.PNG" id="1a" alt="0" onclick="evento('1');"/></td>
                             <td><img src="imagenes/0.PNG" id="2a" alt="0" onclick="evento('2');"/></td>
@@ -332,24 +336,16 @@
                             <td><img src="imagenes/0.PNG" id="36a" alt="0" onclick="evento('36');"/></td>
 
                         </tr>
-
-                    </table>
+                        </table>
                     <div>
                         <br>
                         <input class="btn btn-primary" type="button" value="Cargar" onclick="CargaAleatoria()">
-                        
                     </div>
-                    <div>
-
-                    </div>
-
-
-                </form>
+                <div>
             </div>
-
+        </form>
+        </div>
     </div>
-</div>
-
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-sm">
@@ -367,10 +363,7 @@
         </div>
     </div>
 </div>
-<footer class="navbar navbar-fixed-bottom">
-<div class="footer-basic-centered">
-        <p class="footer-company-name">Proyecto Aplicaciones Web &copy; 2017</p>
+<?php include 'footer.php'; ?>
 </div>
-</footer>
 </body>
 </html>

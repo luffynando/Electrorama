@@ -17,51 +17,48 @@
     <!-- end-->
 </head>
 <body>
-<div class="container">
-    <header>
-        <nav id='cssmenu'>
-            <div class="logo"><a href="#">MENÚ</a></div>
-            <div id="head-mobile"></div>
-            <div class="button"></div>
-            <ul>
-                <li><a href="index.php"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                <li><a href="aplicacion.php"><i class="fa fa-microchip fa-lg"></i> Aplicacion</a></li>
-                <li><a href="ayuda.php"><i class="fa fa-question-circle fa-lg"></i> Ayuda</a></li>
-                <li class="active"><a href="acerca.php"><i class="fa fa-info-circle fa-lg"></i> Acerca de</a></li>
-        </ul>
-        </nav>
-    </header>
-</div>
-<br><br><br><br>
-<div class="container">
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6 cuadro">
-            <div class="titulo text-center"><h3 style="margin-bottom:  25px;">Acerca de</h3></div>
-            <div class="col-md-3">
-                <img src="imagenes/icono1.png" class="rounded" alt="...">
-            </div>
-            <div class="col-md-9">
-                <p><strong>Aplicaciones Multimedia.</strong><p/>
-                <p>Profesor Investigador Mario Anzurez García.<p/>
-                <p><strong>Electrorama V 0.1.</strong><p/>
-                <p>Eduardo Cervantes Hernandez,
-                    Jonathan Hernandez Sanchez,
-                    Franco Aldair Herrera Sánchez,
-                    Amadeus Sorcia Villegas,
-                    Alvaro Perez Sanchez,
-                    Ignacio Ramos Méndez,
-                    Carlos Rojas Ramírez.</p>
-            </div>
-
+<div id="holder">
+    <div id="header">
+        <div class="container">
+            <header>
+                <nav id='cssmenu'>
+                <div class="logo"><a href="#">MENÚ</a></div>
+                <div id="head-mobile"></div>
+                <div class="button"></div>
+                <ul>
+                    <li><a href="index.php"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li><a href="aplicacion.php"><i class="fa fa-microchip fa-lg"></i> Aplicacion</a></li>
+                    <li><a href="ayuda.php"><i class="fa fa-question-circle fa-lg"></i> Ayuda</a></li>
+                    <li class="active"><a href="acerca.php"><i class="fa fa-info-circle fa-lg"></i> Acerca de</a></li>
+                </ul>
+                </nav>
+            </header>
         </div>
-        <div class="col-md-3"></div>
     </div>
+    <div id="body">
+        <br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                    <div class="col-md-6 cuadro">
+                        <div class="titulo text-center">
+                            <h3 style="margin-bottom:  25px;">Acerca de</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imagenes/icono1.png" class="rounded" alt="...">
+                        </div>
+                        <div class="col-md-9">
+                            <p><strong>Aplicaciones Web.</strong><p/>
+                            <p><strong>Electrorama V 0.1.</strong><p/>
+                            <p>Alejandro Ramirez Guzman, Fernando Isidro Luna, Citlalli , Yazmin Francisco Lopez</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php include 'footer.php'; ?>
 </div>
-<footer class="navbar navbar-fixed-bottom">
-<div class="footer-basic-centered">
-        <p class="footer-company-name">Proyecto Aplicaciones Web &copy; 2017</p>
-</div>
-</footer>
 </body>
 </html>
