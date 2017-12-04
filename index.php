@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-left">
-<h1>Electronica</h1>
+                    <h1>Electronica</h1>
 					<p>Se conoce como electrónica al análisis de los electrones y a la aplicación de sus principios en diferentes contextos. 
 					Puede decirse, por lo tanto, que la noción de electrónica refiere a lo que está vinculado con el electrón, que es una de 
 					las partículas esenciales de los átomos.

@@ -50,7 +50,10 @@
                         <div class="col-md-9">
                             <p><strong>Aplicaciones Web.</strong><p/>
                             <p><strong>Electrorama V 0.1.</strong><p/>
-                            <p>Alejandro Ramirez Guzman, Fernando Isidro Luna, Citlalli , Yazmin Francisco Lopez</p>
+                            <p>Alejandro Ramirez Guzman</p>
+                            <p>Fernando Isidro Luna</p> 
+                            <p>Citlalli Serrano Perez</p> 
+                            <p>Yazmin Francisco Lopez</p>
                         </div>
                     </div>
                     <div class="col-md-3"></div>
